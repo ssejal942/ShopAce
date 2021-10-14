@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Sejal Singh">
+        <meta name="keywords" content="ecommerce ,shop ace , online shopping">
+        <meta name="description" content="This is an e-commerce website made as a part of internship project">
+       
+        <!-- Latest compiled and minified CSS -->
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+          <!-- local style sheet -->
+          <link rel="stylesheet" href="style.css">  
+        <!-- favicon in page tab  -->
+        <link rel="icon" href="favicon.ico">
+        <!--Font awesome for icons-->
+         <script defer src="https://kit.fontawesome.com/7bc073b58d.js" crossorigin="anonymous"></script>
+        <title> SHOP ACE</title>
+    </head>
+    <body>
+        <section id="first">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <p> Email Support: ssejal942@gmail.com</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <p> Free Shipping for all orders above Rs999 </p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 " >
+                    <div class="dropdown pull-left" id="dropdown_list">
+                        <button class="dropbtn" >My Account</button>
+                        <div class="dropdown-content">
+                          <a href="profile.html">My Profile</a>
+                          <a href="wishlist.html">My Wishlist</a>
+                          <a href="signin.html">Sign In</a>
+                        </div>
+                      </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        </section>
+      
+        <section id="second">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12  ">
+                        <i class="fas fa-shopping-cart fa-3x"></i>
+                        <span class="brand"> ShopAce </span> 
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 ">
+                        <form class="form-inline searchbox form-control-lg ">
+                            <div class="form-group d-inline w-50 p-2" >
+                              <label for="inputSearch" class="sr-only">Search For Item</label>
+                              <input type="search" class="form-control " id="inputSearch" placeholder="Search For Item">
+                            </div>
+                            <button type="submit" class="btn  mb-2 btn-colour d-inline p-2">Search</button>
+                          </form>
+                      
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 WishlistDiv">
+                         <i class="far fa-heart fa-2x WishlistLogo"></i>
+                         <a class="Cart Wishlist" href="wishlist.html"> Wishlist</a>
+                    </div>
+                    <div class="col-lg-3  cartDiv">
+                         <i class="fas fa-cart-arrow-down fa-2x shoppingLogo"></i>
+                        <a class="Cart shopping" href="shoppingcart.html"> Shopping Cart</a>
+                     
+                     </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="third">
+            <div class="container-fluid">
+                <!-- Nav Bar -->
+                <nav class="navbar navbar-expand-lg navbar-dark fixed  "> 
+                  <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Browse Categories
+                    </a>
+                  
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="#fifth">Grocery</a>
+                      <a class="dropdown-item" href="#sixth">Mobiles</a>
+                      <a class="dropdown-item" href="#seventh">Men's Fashion</a>
+                      <a class="dropdown-item" href="#eigth">Women's Fashion</a>
+                      <a class="dropdown-item" href="#ninth">Electronics</a>
+                      <a class="dropdown-item" href="#tenth">  Home Decor</a>
+                      <a class="dropdown-item" href="#">Beauty & Personal Care</a>
+                      <a class="dropdown-item" href="#">Nutrition & Health Care</a>
+                      <a class="dropdown-item" href="#">Toys & School Supplies</a>
+                      <a class="dropdown-item" href="#">Books</a>
+                      <a class="dropdown-item" href="#">Sports & Fitness</a>
+                    </div>
+                  </div>
+
+                 <div class=" collapse navbar-collapse " id="collapselist">
+                    <ul class="nav mr-auto" role="navigation" >
+                        <li class=""> 
+                           <a class="nav-link" href=""> Home </a>
+                        </li>
+                        <li class=""> 
+                            <a class="nav-link" href="#fifth"> Shop </a>
+                        </li>
+                        <li class=""> 
+                          <a class="nav-link" href="#footer"> Contact Us </a>
+                      </li>
+                      <li class=""> 
+                        <a class="nav-link" href="#about"> About Us </a>
+                    </li>
+             
+                    </ul>
+                  </div>
+                </nav>
+            </div>
+         </section>
+         <section id="fourth">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="Images/banner1.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="Images/banner2.jpg"Second slide">
+                </div>
+          
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+       </section>
+       <section id="features">
+        <div class="container-fluid">
+          <div class="row">
+              <div class="col-lg-2 feature-box">
+                <i class="fas fa-shipping-fast fa-2x"></i>
+                    <h3 class="property">  Free Shipping</h3>
+                    <p class="description">Free Shipping on all orders above Rs 999 </p>
+              </div>
+              <div class="col-lg-2 feature-box">
+                    <i class="fas fa-headset fa-2x"></i>
+                    <h3 class="property">Support 24/7</h3>
+                    <p class="description">Contact Us 24 hours a day.</p>
+              </div>
+              <div class="col-lg-2 feature-box">
+                <i class="fas fa-money-bill fa-2x"></i>
+                    <h3 class="property">100% money back .</h3>
+                    <p class="description">You have 30 days to Return.</p>
+              </div>
+              <div class="col-lg-2 feature-box">
+                <i class="fas fa-exchange-alt fa-2x"></i>
+                <h3 class="property"> 90 Days Return.</h3>
+                <p class="description">If goods have problems.</p>
+             </div>
+             <div class="col-lg-2 feature-box">
+                <i class="fas fa-money-check-alt fa-2x"></i>
+                <h3 class="property">Payment Secure.</h3>
+                <p class="description">We ensure secure payment.</p>
+             </div>
+             <div class="col-lg-2 feature-box">
+              <i class="fas fa-percent"></i>
+                <h3 class="property">Special Offers.</h3>
+                <p class="description">Huge Discount on Products during festivals.</p>
+             </div>
+          </div>
+        </div>
+        </section>
+        <section id="fifth">
+          <section class="pt-5 pb-5">
+              <div class="container-fluid ">
+                  <div class="row">
+                      <div class="col-6">
+                          <h3 class="mb-3" style="color: blueviolet;">Grocery </h3>
+                      </div>
+                      <div class="col-6 text-right">
+                          <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                              <i class="fa fa-arrow-left"></i>
+                          </a>
+                          <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                              <i class="fa fa-arrow-right"></i>
+                          </a>
+                      </div>
+                      <div class="col-12">
+                          <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+          
+                              <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                      <div class="row">
+          
+                                          <div class="col-md-3 mb-3">
+                                              <div class="card" id="Item1">
+                                                  <img class="img-fluid" alt="100%x280" src="Images/Grocery/cabbage.jpg">
+                                                  <div class="card-body">
+                                                      <h4 class="card-title">Fresho Cabbage</h4>
+                                                      <p class="card-text"> Qty- 1 pc (approx 500g to 800g)</p>
+                                                      <span class="card-text"> MRP <s> Rs 17.60 </s> 9.60</span>
+                                                      <span class="saving"> You Save 57%</span>
+                                                      <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                      <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-3 mb-3">
+                                              <div class="card">
+                                                  <img class="img-fluid" alt="100%x280" src="Images/Grocery/capcicum.jpg">
+                                                  <div class="card-body">
+                                                      <h4 class="card-title">Fresho Capcicum Green</h4>
+                                                      <p class="card-text"> Qty- 500g </p>
+                                                      <span class="card-text"> MRP <s> Rs 56.25 </s> Rs 19</span>
+                                                      <span class="saving"> You Save 66%</span>
+                                                      <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                      <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                  </div>
+          
+                                              </div>
+                                          </div>
+                                          <div class="col-md-3 mb-3">
+                                              <div class="card">
+                                                  <img class="img-fluid" alt="100%x280" src="Images/Grocery/eggs.jpg">
+                                                  <div class="card-body">
+                                                      <h4 class="card-title"> Farm Eggs- Table Tray </h4>
+                                                      <p class="card-text"> Qty- 30pcs </p>
+                                                      <span class="card-text"> MRP <s> Rs 210 </s> Rs 180</span>
+                                                      <span class="saving"> You Save 14%</span>
+                                                      <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                      <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                  </div>
+          
+                                              </div>
+                                          </div>
+                                          <div class="col-md-3 mb-3">
+                                              <div class="card">
+                                                  <img class="img-fluid" alt="100%x280" src="Images/Grocery/atta.jpg">
+                                                  <div class="card-body">
+                                                      <h4 class="card-title">Aashirwaad Atta </h4>
+                                                      <p class="card-text"> Qty- 10kg </p>
+                                                      <span class="card-text"> MRP <s> Rs 493 </s> Rs 383</span>
+                                                      <span class="saving"> You Save 22%</span>
+                                                      <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                      <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                  </div>
+          
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                      <div class="row">
+          
+                                          <div class="col-md-3 mb-3">
+                                              <div class="card">
+                                                  <img class="img-fluid" alt="100%x280" src="Images/Grocery/idli.jpg">
+                                                  <div class="card-body">
+                                                      <h4 class="card-title">Idli-Dosa Batter </h4>
+                                                      <p class="card-text"> Qty- 1kg </p>
+                                                      <span class="card-text"> MRP <s> Rs 70 </s> Rs 66.50</span>
+                                                      <span class="saving"> You Save 5%</span>
+                                                      <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                      <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-3 mb-3">
+                                              <div class="card">
+                                                  <img class="img-fluid" alt="100%x280" src="Images/Grocery/onion.jpg">
+                                                  <div class="card-body">
+                                                      <h4 class="card-title">Onion </h4>
+                                                      <p class="card-text"> Qty- 1kg </p>
+                                                      <span class="card-text"> MRP <s> Rs 58.75 </s> Rs 47</span>
+                                                      <span class="saving"> You Save 20%</span>
+                                                      <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                      <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-3 mb-3">
+                                              <div class="card">
+                                                  <img class="img-fluid" alt="100%x280" src="Images/Grocery/tea.jpg">
+                                                  <div class="card-body">
+                                                      <h4 class="card-title">Red Label Tea</h4>
+                                                      <p class="card-text"> Qty- 1kg </p>
+                                                      <span class="card-text"> MRP <s> Rs 570 </s> Rs 502.67</span>
+                                                      <span class="saving"> You Save 12%</span>
+                                                      <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                      <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-3 mb-3">
+                                              <div class="card">
+                                                  <img class="img-fluid" alt="100%x280" src="Images/Grocery/chicken.jpg">
+                                                  <div class="card-body">
+                                                      <h4 class="card-title">Chicken Cut Without Skin </h4>
+                                                      <p class="card-text"> Qty- 1kg </p>
+                                                      <span class="card-text"> MRP <s> Rs 499 </s> Rs 249.50</span>
+                                                      <span class="saving"> You Save 50%</span>
+                                                      <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                      <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                      <div class="row">
+          
+                                          <div class="col-md-3 mb-3">
+                                              <div class="card">
+                                                  <img class="img-fluid" alt="100%x280" src="Images/Grocery/oil.jpg">
+                                                  <div class="card-body">
+                                                      <h4 class="card-title">Borges Olive Oil </h4>
+                                                      <p class="card-text"> Qty- 2L </p>
+                                                      <span class="card-text"> MRP <s> Rs 2700 </s> Rs 1350</span>
+                                                      <span class="saving"> You Save 50%</span>
+                                                      <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                      <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-3 mb-3">
+                                              <div class="card">
+                                                  <img class="img-fluid" alt="100%x280" src="Images/Grocery/paneer.jpg">
+                                                  <div class="card-body">
+                                                      <h4 class="card-title">Milky Mist Paneer </h4>
+                                                      <p class="card-text"> Qty- 500g </p>
+                                                      <span class="card-text"> MRP <s> Rs 250 </s> Rs 237.50</span>
+                                                      <span class="saving"> You Save 13%</span>
+                                                      <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                      <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-3 mb-3">
+                                              <div class="card">
+                                                  <img class="img-fluid" alt="100%x280" src="Images/Grocery/ricd.jpg">
+                                                  <div class="card-body">
+                                                      <h4 class="card-title">BB Royal Rice </h4>
+                                                      <p class="card-text"> Qty- 5kg </p>
+                                                      <span class="card-text"> MRP <s> Rs 350 </s> Rs 270</span>
+                                                      <span class="saving"> You Save 23%</span>
+                                                      <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                      <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-3 mb-3">
+                                              <div class="card">
+                                                  <img class="img-fluid" alt="100%x280" src="Images/Grocery/milk.jpg">
+                                                  <div class="card-body">
+                                                      <h4 class="card-title">Nandini Goodlife Milk </h4>
+                                                      <p class="card-text"> Qty- 500 ml</p>
+                                                      <span class="card-text"> MRP <s> Rs 26 </s> Rs 23.66</span>
+                                                      <span class="saving"> You Save 9%</span>
+                                                      <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                      <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+          </section>
+          <section id="sixth">
+            <section class="pt-5 pb-5">
+                <div class="container-fluid ">
+                    <div class="row">
+                        <div class="col-6">
+                            <h3 class="mb-3" > Mobile Phones </h3>
+                        </div>
+                        <div class="col-6 text-right">
+                            <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                                <i class="fa fa-arrow-left"></i>
+                            </a>
+                            <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                                <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="col-12">
+                            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+            
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="row">
+            
+                                            <div class="col-md-3 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid mobile_img" alt="100%x280" src="Images/mobiles/realme.jpeg">
+                                                    <div class="card-body ">
+                                                        <h4 class="card-title">Realme C21Y</h4>
+                                                        <p class="card-text"> Cross Black (64 GB storage, 4 GB RAM) </p>
+                                                        <span class="card-text"> MRP <s> Rs 10999 </s> 9999</span>
+                                                        <span class="saving"> You Save 9%</span>
+                                                        <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                        <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid mobile_img" alt="100%x280" src="Images/mobiles/poco.jpeg">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">POCO M3</h4>
+                                                        <p class="card-text"> Power black (64 GB storage, 4 GB RAM) </p>
+                                                        <span class="card-text"> MRP <s> Rs 12999 </s> Rs 11499</span>
+                                                        <span class="saving"> You Save 11%</span>
+                                                        <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                        <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                    </div>
+            
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid mobile_img" alt="100%x280" src="Images/mobiles/narzo.jpeg">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title"> Realme Narzo 30 Pro 5G </h4>
+                                                        <p class="card-text"> Sword Black (128 GB storage,6 GB RAM) </p>
+                                                        <span class="card-text"> MRP <s> Rs 21999 </s> Rs 19999</span>
+                                                        <span class="saving"> You Save 9%</span>
+                                                        <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                        <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                    </div>
+            
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid mobile_img" alt="100%x280" src="Images/mobiles/infinix.jpeg">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title"> Infinix Hot 10  </h4>
+                                                        <p class="card-text"> 7' Purple (32 GB storage, 3 GB RAM)</p>
+                                                        <span class="card-text"> MRP <s> Rs 9999 </s> Rs 8299</span>
+                                                        <span class="saving"> You Save 17%</span>
+                                                        <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                        <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                    </div>
+            
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+            
+                                            <div class="col-md-3 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid mobile_img" alt="100%x280" src="Images/mobiles/infinix2.jpeg">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Infinix Note 10 </h4>
+                                                        <p class="card-text"> 95' Black (128 GB storage, 6 GB RAM) </p>
+                                                        <span class="card-text"> MRP <s> Rs 24999 </s> Rs 12999</span>
+                                                        <span class="saving"> You Save 16%</span>
+                                                        <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                        <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid mobile_img" alt="100%x280" src="Images/mobiles/redmi.jpeg">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Redmi 9A </h4>
+                                                        <p class="card-text"> Sea Blue (32 GB storage, 2 GB RAM)  </p>
+                                                        <span class="card-text"> MRP <s> Rs 8000 </s> Rs 7505 </span>
+                                                        <span class="saving"> You Save 6% </span>
+                                                        <button type="submit" class="cart-btn btn btn-success "> Add to cart </button>
+                                                        <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid mobile_img" alt="100%x280" src="Images/mobiles/mi.jpeg">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">MI 11 Lite</h4>
+                                                        <p class="card-text"> Vinyl Black (128 GB storage, 6 GB RAM)  </p>
+                                                        <span class="card-text"> MRP <s> Rs 24999</s> Rs 21999</span>
+                                                        <span class="saving"> You Save 12%</span>
+                                                        <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                        <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid mobile_img" alt="100%x280" src="Images/mobiles/iphone.jpeg">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Apple iphone 12 mini </h4>
+                                                        <p class="card-text"> Blue (64 GB storage) </p>
+                                                        <span class="card-text"> MRP <s> Rs 59900 </s> Rs 45198</span>
+                                                        <span class="saving"> You Save 24%</span>
+                                                        <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                        <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+            
+                                            <div class="col-md-3 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid mobile_img" alt="100%x280" src="Images/mobiles/apple.jpeg">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Apple iphone 12 </h4>
+                                                        <p class="card-text"> Purple (128 GB storage)  </p>
+                                                        <span class="card-text"> MRP <s> Rs 70900 </s> Rs 65999</span>
+                                                        <span class="saving"> You Save 6%</span>
+                                                        <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                        <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid mobile_img" alt="100%x280" src="Images/mobiles/samsung.jpeg">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Samsung Galaxy A22 </h4>
+                                                        <p class="card-text"> Black (128 GB storage, 6 GB RAM)  </p>
+                                                        <span class="card-text"> MRP Rs 18394</span>
+                                                        <span class="saving"> No Discount</span>
+                                                        <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                        <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid mobile_img" alt="100%x280" src="Images/mobiles/samsung1.jpeg">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Samsung Galaxy F22 </h4>
+                                                        <p class="card-text"> Denim Blue (128 GB storage, 6 GB RAM)  </p>
+                                                        <span class="card-text"> MRP <s> Rs 16999 </s> Rs 14999</span>
+                                                        <span class="saving"> You Save 11%</span>
+                                                        <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                        <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid mobile_img" alt="100%x280" src="Images/mobiles/sony.jpg">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Sony XB10 </h4>
+                                                        <p class="card-text"> White (64 GB storage, 2 GB RAM) </p>
+                                                        <span class="card-text"> MRP <s> Rs 7000 </s> Rs 6299 </span>
+                                                        <p class="saving"> You Save 10%</p>
+                                                        <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                        <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </section>
+
+            <section id="seventh">
+                <section class="pt-5 pb-5">
+                    <div class="container-fluid ">
+                        <div class="row">
+                            <div class="col-6">
+                                <h3 class="mb-3" > Men's Fashion  </h3>
+                            </div>
+                            <div class="col-6 text-right">
+                                <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                                    <i class="fa fa-arrow-left"></i>
+                                </a>
+                                <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                                    <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                            <div class="col-12">
+                                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="row">
+                
+                                                <div class="col-md-3 mb-3">
+                                                    <div class="card ">
+                                                        <img class="img-fluid cardlen" alt="100%x280" src="Images/men/jacket.jpeg">
+                                                        <div class="card-body">
+                                                            <h4 class="card-title">NY/US Quilted Jacket</h4>
+                                                            <p class="card-text"> Full Sleeve Solid</p>
+                                                            <span class="card-text"> MRP <s> Rs 2325 </s> 1323</span>
+                                                            <span class="saving"> You Save 43%</span>
+                                                            <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                            <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 mb-3">
+                                                    <div class="card">
+                                                        <img class="img-fluid cardlen" alt="100%x280" src="Images/men/tshirt.jpeg">
+                                                        <div class="card-body">
+                                                            <h4 class="card-title">Seven Rocks Tshirt</h4>
+                                                            <p class="card-text"> Black colour round neck </p>
+                                                            <span class="card-text"> MRP <s> Rs 1299 </s> Rs 311</span>
+                                                            <span class="saving"> You Save 76%</span>
+                                                            <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                            <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                        </div>
+                
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 mb-3">
+                                                    <div class="card">
+                                                        <img class="img-fluid cardlen" alt="100%x280" src="Images/men/tshirt1.jpeg">
+                                                        <div class="card-body">
+                                                            <h4 class="card-title"> Blive Tshirt </h4>
+                                                            <p class="card-text"> Maroon Grey Round Neck </p>
+                                                            <span class="card-text"> MRP <s> Rs 272 </s> Rs 1399</span>
+                                                            <span class="saving"> You Save 80%</span>
+                                                            <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                            <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                        </div>
+                
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 mb-3">
+                                                    <div class="card">
+                                                        <img class="img-fluid cardlen" alt="100%x280" src="Images/men/jeans.jpeg">
+                                                        <div class="card-body">
+                                                            <h4 class="card-title">Provogue Jeans</h4>
+                                                            <p class="card-text"> Slim Men Blue Jeans </p>
+                                                            <span class="card-text"> MRP <s> Rs 699 </s> Rs 1999</span>
+                                                            <span class="saving"> You Save 65%</span>
+                                                            <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                            <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                        </div>
+                
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="row">
+                
+                                                <div class="col-md-3 mb-3">
+                                                    <div class="card">
+                                                        <img class="img-fluid cardlen" alt="100%x280" src="Images/men/tshirt2.jpeg">
+                                                        <div class="card-body">
+                                                            <h4 class="card-title">Seven Rock Tshirt </h4>
+                                                            <p class="card-text"> Solid Men Polo Neck White </p>
+                                                            <span class="card-text"> MRP <s> Rs 1299 </s> Rs 325</span>
+                                                            <span class="saving"> You Save 75%</span>
+                                                            <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                            <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 mb-3">
+                                                    <div class="card">
+                                                        <img class="img-fluid cardlen" alt="100%x280" src="Images/men/jeans1.jpeg">
+                                                        <div class="card-body">
+                                                            <h4 class="card-title">Porvo Jeans </h4>
+                                                            <p class="card-text"> Skinny Men Light Blue </p>
+                                                            <span class="card-text"> MRP <s> Rs 2049 </s> Rs 732</span>
+                                                            <span class="saving"> You Save 65%</span>
+                                                            <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                            <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 mb-3">
+                                                    <div class="card">
+                                                        <img class="img-fluid cardlen" alt="100%x280" src="Images/men/socks.jpeg">
+                                                        <div class="card-body">
+                                                            <h4 class="card-title">Navy Sport Socks</h4>
+                                                            <p class="card-text"> Ankle Length ( Pack of 3) </p>
+                                                            <span class="card-text"> MRP <s> Rs 499 </s> Rs 251</span>
+                                                            <span class="saving"> You Save 49%</span>
+                                                            <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                            <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 mb-3">
+                                                    <div class="card">
+                                                        <img class="img-fluid cardlen" alt="100%x280" src="Images/men/shirt.jpeg">
+                                                        <div class="card-body">
+                                                            <h4 class="card-title">D'Liya Shirt </h4>
+                                                            <p class="card-text"> Cotton Silk Blend Printed</p>
+                                                            <span class="card-text"> MRP <s> Rs 1249 </s> Rs 354</span>
+                                                            <span class="saving"> You Save 71%</span>
+                                                            <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                            <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      
+                                            
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                </section>
+
+                <section id="eigth">
+                    <section class="pt-5 pb-5">
+                        <div class="container-fluid ">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h3 class="mb-3" > Women's Fashion  </h3>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                                        <i class="fa fa-arrow-left"></i>
+                                    </a>
+                                    <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                                <div class="col-12">
+                                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                    
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="row">
+                    
+                                                    <div class="col-md-3 mb-3">
+                                                        <div class="card ">
+                                                            <img class="img-fluid cardlen" alt="100%x280" src="Images/women/saree.jpeg">
+                                                            <div class="card-body">
+                                                                <h4 class="card-title">Anand Saree</h4>
+                                                                <p class="card-text"> Pink coloured floral print </p>
+                                                                <span class="card-text"> MRP <s> Rs 2325 </s> 1323</span>
+                                                                <span class="saving"> You Save 43%</span>
+                                                                <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                                <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3 mb-3">
+                                                        <div class="card">
+                                                            <img class="img-fluid cardlen" alt="100%x280" src="Images/women/jeans.jpeg">
+                                                            <div class="card-body">
+                                                                <h4 class="card-title">Van Heusan Track Pants</h4>
+                                                                <p class="card-text"> Grey Colour Printed </p>
+                                                                <span class="card-text"> MRP <s> Rs 1299 </s> Rs 311</span>
+                                                                <span class="saving"> You Save 76%</span>
+                                                                <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                                <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                            </div>
+                    
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3 mb-3">
+                                                        <div class="card">
+                                                            <img class="img-fluid cardlen" alt="100%x280" src="Images/women/jacket.jpeg">
+                                                            <div class="card-body">
+                                                                <h4 class="card-title"> Fort Collins Jacket </h4>
+                                                                <p class="card-text"> Full Sleeve solid women </p>
+                                                                <span class="card-text"> MRP <s> Rs 272 </s> Rs 1399</span>
+                                                                <span class="saving"> You Save 80%</span>
+                                                                <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                                <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                            </div>
+                    
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3 mb-3">
+                                                        <div class="card">
+                                                            <img class="img-fluid cardlen" alt="100%x280" src="Images/women/nighty.jpeg">
+                                                            <div class="card-body">
+                                                                <h4 class="card-title">Cinco Women Nighty</h4>
+                                                                <p class="card-text"> (Grey , Black) </p>
+                                                                <span class="card-text"> MRP <s> Rs 699 </s> Rs 1999</span>
+                                                                <span class="saving"> You Save 65%</span>
+                                                                <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                                <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                            </div>
+                    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="row">
+                    
+                                                    <div class="col-md-3 mb-3">
+                                                        <div class="card">
+                                                            <img class="img-fluid cardlen" alt="100%x280" src="Images/women/jeans1.jpeg">
+                                                            <div class="card-body">
+                                                                <h4 class="card-title">Tokyo Talkies Jeans </h4>
+                                                                <p class="card-text"> Light Blue flared women </p>
+                                                                <span class="card-text"> MRP <s> Rs 1299 </s> Rs 325</span>
+                                                                <span class="saving"> You Save 75%</span>
+                                                                <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                                <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3 mb-3">
+                                                        <div class="card">
+                                                            <img class="img-fluid cardlen" alt="100%x280" src="Images/women/suit.jpeg">
+                                                            <div class="card-body">
+                                                                <h4 class="card-title">Saara Salwar Suit</h4>
+                                                                <p class="card-text"> Greps Geometric printed</p>
+                                                                <span class="card-text"> MRP <s> Rs 2049 </s> Rs 732</span>
+                                                                <span class="saving"> You Save 65%</span>
+                                                                <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                                <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3 mb-3">
+                                                        <div class="card">
+                                                            <img class="img-fluid cardlen" alt="100%x280" src="Images/women/saree1.jpeg">
+                                                            <div class="card-body">
+                                                                <h4 class="card-title">Mirchi Fashion Saree</h4>
+                                                                <p class="card-text"> Blue printed ,striped cotton blend </p>
+                                                                <span class="card-text"> MRP <s> Rs 1499 </s> Rs 1251</span>
+                                                                <span class="saving"> You Save 20%</span>
+                                                                <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                                <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3 mb-3">
+                                                        <div class="card">
+                                                            <img class="img-fluid cardlen" alt="100%x280" src="Images/women/top.jpeg">
+                                                            <div class="card-body">
+                                                                <h4 class="card-title">Fab Star Pink Top </h4>
+                                                                <p class="card-text"> Casaul regular sleeve solid</p>
+                                                                <span class="card-text"> MRP <s> Rs 1249 </s> Rs 354</span>
+                                                                <span class="saving"> You Save 71%</span>
+                                                                <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                                <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                          
+                                                
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    </section>
+
+                    <section id="ninth">
+                        <section class="pt-5 pb-5">
+                            <div class="container-fluid ">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h3 class="mb-3" > Electronics </h3>
+                                    </div>
+                                    <div class="col-6 text-right">
+                                        <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                                            <i class="fa fa-arrow-left"></i>
+                                        </a>
+                                        <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                                            <i class="fa fa-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                    <div class="col-12">
+                                        <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                        
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <div class="row">
+                        
+                                                        <div class="col-md-3 mb-3">
+                                                            <div class="card ">
+                                                                <img class="img-fluid cardlen" alt="100%x280" src="Images/electronics/tv.jpeg">
+                                                                <div class="card-body">
+                                                                    <h4 class="card-title">Motorola ZX Pro LED TV</h4>
+                                                                    <p class="card-text"> 55 inch Ultra HD </p>
+                                                                    <span class="card-text"> MRP <s> Rs 61999 </s> 49999</span>
+                                                                    <span class="saving"> You Save 27%</span>
+                                                                    <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                                    <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-3 mb-3">
+                                                            <div class="card">
+                                                                <img class="img-fluid cardlen" alt="100%x280" src="Images/electronics/tv1.jpeg">
+                                                                <div class="card-body">
+                                                                    <h4 class="card-title">MI 5X LED Smart TV</h4>
+                                                                    <p class="card-text"> 50 inch Ultra HD (4K) </p>
+                                                                    <span class="card-text"> MRP <s> Rs 69999 </s> Rs 41999</span>
+                                                                    <span class="saving"> You Save 30%</span>
+                                                                    <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                                    <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                                </div>
+                        
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-3 mb-3">
+                                                            <div class="card">
+                                                                <img class="img-fluid cardlen" alt="100%x280" src="Images/electronics/washing1.jpeg">
+                                                                <div class="card-body">
+                                                                    <h4 class="card-title"> LG Washing Machine  </h4>
+                                                                    <p class="card-text"> Fully automatic top load (6.5 kg) </p>
+                                                                    <span class="card-text"> MRP <s> Rs 18490</s> Rs 15490</span>
+                                                                    <span class="saving"> You Save 16%</span>
+                                                                    <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                                    <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                                </div>
+                        
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-3 mb-3">
+                                                            <div class="card">
+                                                                <img class="img-fluid cardlen" alt="100%x280" src="Images/electronics/washing.jpeg">
+                                                                <div class="card-body">
+                                                                    <h4 class="card-title">Panasonic Washing Machine</h4>
+                                                                    <p class="card-text"> Fully automatic top load (6 kg)  </p>
+                                                                    <span class="card-text"> MRP <s> Rs 16700 </s> Rs 12740</span>
+                                                                    <span class="saving"> You Save 23%</span>
+                                                                    <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                                    <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                                </div>
+                        
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="row">
+                                                       
+                                                        <div class="col-md-3 mb-3">
+                                                            <div class="card">
+                                                                <img class="img-fluid cardlen" alt="100%x280" src="Images/electronics/mixer.jpeg">
+                                                                <div class="card-body">
+                                                                    <h4 class="card-title">Bajaj Mixer Grinder </h4>
+                                                                    <p class="card-text"> 500 W </p>
+                                                                    <span class="card-text"> MRP <s> Rs 3505 </s> Rs 2100</span>
+                                                                    <span class="saving"> You Save 40%</span>
+                                                                    <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                                    <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-3 mb-3">
+                                                            <div class="card">
+                                                                <img class="img-fluid cardlen" alt="100%x280" src="Images/electronics/induction.jpeg">
+                                                                <div class="card-body">
+                                                                    <h4 class="card-title">Piegon Induction</h4>
+                                                                    <p class="card-text"> Black faV IC 1800W </p>
+                                                                    <span class="card-text"> MRP <s> Rs 3195 </s> Rs 1548</span>
+                                                                    <span class="saving"> You Save 51%</span>
+                                                                    <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                                    <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                               
+                                        
+                                    
+                                                        <div class="col-md-3 mb-3">
+                                                            <div class="card">
+                                                                <img class="img-fluid cardlen" alt="100%x280" src="Images/electronics/iron.jpeg">
+                                                                <div class="card-body">
+                                                                    <h4 class="card-title">Bajaj Dry Iron</h4>
+                                                                    <p class="card-text"> D * 6 1000W </p>
+                                                                    <span class="card-text"> MRP <s> Rs 920 </s> Rs 624</span>
+                                                                    <span class="saving"> You Save 32%</span>
+                                                                    <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                                    <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-3 mb-3">
+                                                            <div class="card">
+                                                                <img class="img-fluid cardlen" alt="100%x280" src="Images/electronics/vacum.jpeg">
+                                                                <div class="card-body">
+                                                                    <h4 class="card-title">Karcher Vaccum Cleaner </h4>
+                                                                    <p class="card-text"> Black Yellow Wet & Dry </p>
+                                                                    <span class="card-text"> MRP <s> Rs 8999 </s> Rs 6299</span>
+                                                                    <span class="saving"> You Save 31%</span>
+                                                                    <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                                    <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                         </div>
+                                </div>
+                            </div>
+                        </section>
+                        </section>
+                        <section id="tenth">
+                            <section class="pt-5 pb-5">
+                                <div class="container-fluid ">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h3 class="mb-3" > Home Decor </h3>
+                                        </div>
+                                        <div class="col-6 text-right">
+                                            <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                                                <i class="fa fa-arrow-left"></i>
+                                            </a>
+                                            <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                                                <i class="fa fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                        <div class="col-12">
+                                            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                            
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <div class="row">
+                            
+                                                            <div class="col-md-3 mb-3">
+                                                                <div class="card ">
+                                                                    <img class="img-fluid cardlen" alt="100%x280" src="Images/home/bedsheet.jpeg">
+                                                                    <div class="card-body">
+                                                                        <h4 class="card-title">Monta Carlo Bedsheet</h4>
+                                                                        <p class="card-text"> Pack of 1 , Multicolor </p>
+                                                                        <span class="card-text"> MRP <s> Rs 2499 </s> 849</span>
+                                                                        <span class="saving"> You Save 66%</span>
+                                                                        <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                                        <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3 mb-3">
+                                                                <div class="card">
+                                                                    <img class="img-fluid cardlen" alt="100%x280" src="Images/home/mat.jpeg">
+                                                                    <div class="card-body">
+                                                                        <h4 class="card-title">LooMantha Fridge Mat </h4>
+                                                                        <p class="card-text"> Blue Color </p>
+                                                                        <span class="card-text"> MRP <s> Rs 533 </s> Rs 219</span>
+                                                                        <span class="saving"> You Save 63%</span>
+                                                                        <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                                        <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                                    </div>
+                            
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3 mb-3">
+                                                                <div class="card">
+                                                                    <img class="img-fluid cardlen" alt="100%x280" src="Images/home/bathroom.jpeg">
+                                                                    <div class="card-body">
+                                                                        <h4 class="card-title"> Saral Bathroom Mat  </h4>
+                                                                        <p class="card-text"> Polyester black & medium </p>
+                                                                        <span class="card-text"> MRP <s> Rs 749</s> Rs 299</span>
+                                                                        <span class="saving"> You Save 60%</span>
+                                                                        <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                                        <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                                    </div>
+                            
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3 mb-3">
+                                                                <div class="card">
+                                                                    <img class="img-fluid cardlen" alt="100%x280" src="Images/home/cover.jpeg">
+                                                                    <div class="card-body">
+                                                                        <h4 class="card-title">Nitasha Washing Machine Cover</h4> 
+                                                                        <p class="card-text"> Military  top load (6 kg)  </p>
+                                                                        <span class="card-text"> MRP <s> Rs 999</s> Rs 399</span>
+                                                                        <span class="saving"> You Save 60%</span>
+                                                                        <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                                        <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                                    </div>
+                            
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <div class="row">
+                                                           
+                                                            <div class="col-md-3 mb-3">
+                                                                <div class="card">
+                                                                    <img class="img-fluid cardlen" alt="100%x280" src="Images/home/blanket.jpeg">
+                                                                    <div class="card-body">
+                                                                        <h4 class="card-title">SmartBuy Blanket </h4>
+                                                                        <p class="card-text"> (Microfiber, Multicolor) </p>
+                                                                        <span class="card-text"> MRP <s> Rs 2499</s> Rs 499</span>
+                                                                        <span class="saving"> You Save 80%</span>
+                                                                        <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                                        <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3 mb-3">
+                                                                <div class="card">
+                                                                    <img class="img-fluid cardlen" alt="100%x280" src="Images/home/matress.jpeg">
+                                                                    <div class="card-body">
+                                                                        <h4 class="card-title">Texlux Mattress</h4>
+                                                                        <p class="card-text"> Queen Size Waterproof  </p>
+                                                                        <span class="card-text"> MRP <s> Rs 3205 </s> Rs 1648</span>
+                                                                        <span class="saving"> You Save 47%</span>
+                                                                        <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                                        <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                   
+                                            
+                                        
+                                                            <div class="col-md-3 mb-3">
+                                                                <div class="card">
+                                                                    <img class="img-fluid cardlen" alt="100%x280" src="Images/home/net.jpeg">
+                                                                    <div class="card-body">
+                                                                        <h4 class="card-title">Aetrius  Mosquito Net</h4>
+                                                                        <p class="card-text"> Polyester Adults size bed </p>
+                                                                        <span class="card-text"> MRP <s> Rs 920 </s> Rs 624</span>
+                                                                        <span class="saving"> You Save 32%</span>
+                                                                        <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                                        <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3 mb-3">
+                                                                <div class="card">
+                                                                    <img class="img-fluid cardlen" alt="100%x280" src="Images/home/pillow.jpeg">
+                                                                    <div class="card-body">
+                                                                        <h4 class="card-title">Sleeping Pillow </h4>
+                                                                        <p class="card-text"> Cotton Solid  Pack of 2 </p>
+                                                                        <span class="card-text"> MRP <s> Rs 499 </s> Rs 229</span>
+                                                                        <span class="saving"> You Save 54%</span>
+                                                                        <button type="submit" class="cart-btn btn btn-success"> Add to cart </button>
+                                                                        <button type="submit" class="cart-btn btn btn-info"> WishList </button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                          
+                                                        
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            </section>
+
+                        <section id="about">
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-lg-6 aboutus">
+                                  <h2> ABOUT US</h2>
+                                  <p> This is an ecommerce website which is made as a part of internship project. </p>
+                                  <p> Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididun.
+                                  <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                   <p>ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet conse ctetur.</p>
+                                  <p> Top quality products</p>
+                                    <p>Best customer service</p>
+                                    <p>30-days money back guarantee</p>
+                                </div>
+                                <div class="col-lg-6 contact">
+                                  <h2> CONTACT US</h2>
+                                      <p> Address: 4710-4890 Breckinridge St</p>
+                                        <p>Fayetteville, NC 28311</p>
+                                      <p> Email: support@sejalsingh.com</p>
+                                      <p> Call us: 1-1001-234-5678</p>
+                                    </div>
+                                 </div>
+                              </div>
+                            </div>
+                           </section>
+                           <footer id="footer">
+                            <a href="" > <i class="social-icon fab fa-2x fa-facebook"></i></a>
+                            <a href="" > <i class=" social-icon fab fa-2x fa-instagram"></i></a>
+                            <a href="" > <i class="fab fa-google-plus-g fa-2x social-icon "></i></a>
+                            <a href="" > <i class="fab fa-twitter fa-2x social-icon "></i></a>
+                           <p>© Copyright 2021 ShopAce</p>
+        <!-- local javascript file -->
+        <script src="app.js"></script>
+        <!-- jquery cdn -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+         <!-- bootstrap javascript -->
+       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        </body>
+</html>
